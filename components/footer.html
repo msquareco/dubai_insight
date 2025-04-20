@@ -1,26 +1,35 @@
 <!-- components/footer.html -->
-<footer class="w-full bg-[#f9f9f6] border-t border-gray-200 mt-16">
-  <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
-    <div>
-      <h2 class="text-xl font-semibold text-[#2e2e2e] font-playfair mb-4">Let's Connect</h2>
-      <p class="text-[#2e2e2e] text-base mb-6">Have a question, idea, or looking for guidance? Reach out and we’ll get back to you soon.</p>
-      <p class="text-base text-[#2e2e2e] mb-1"><strong>Email:</strong> info@msquareco.com</p>
-      <p class="text-base text-[#2e2e2e]"><strong>WhatsApp:</strong> <a href="https://wa.me/971567570905" class="text-emerald-600 hover:underline">+971 56 757 0905</a></p>
+<footer class="bg-[#f9f9f6] text-[#2e2e2e] border-t border-gray-200 pt-10 pb-6 px-4 mt-12">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-8">
+    
+    <div class="space-y-2 font-inter">
+      <h2 class="text-xl font-semibold font-playfair">MsquareCo</h2>
+      <p class="max-w-sm">Beyond Sales. Into Strategy.<br>
+      Strategic consultants for international real estate, focused on awareness, not pushy sales.</p>
     </div>
 
-    <div>
-      <h2 class="text-xl font-semibold text-[#2e2e2e] font-playfair mb-4">Quick Links</h2>
-      <ul class="space-y-2">
-        <li><a href="/index.html" class="text-base text-[#2e2e2e] hover:text-emerald-600 transition">Home</a></li>
-        <li><a href="/about.html" class="text-base text-[#2e2e2e] hover:text-emerald-600 transition">About</a></li>
-        <li><a href="/contact.html" class="text-base text-[#2e2e2e] hover:text-emerald-600 transition">Contact</a></li>
-        <li><a href="https://www.instagram.com/theglobalpartner" target="_blank" class="text-base text-[#2e2e2e] hover:text-emerald-600 transition">Instagram</a></li>
-        <li><a href="https://linkedin.com/in/munisham" target="_blank" class="text-base text-[#2e2e2e] hover:text-emerald-600 transition">LinkedIn</a></li>
-      </ul>
+    <div class="space-y-1 text-sm font-inter">
+      <h3 class="font-semibold text-base mb-1">Navigation</h3>
+      <a href="/index.html" class="block hover:text-emerald-600">Home</a>
+      <a href="/about.html" class="block hover:text-emerald-600">About</a>
+      <a href="/contact.html" class="block hover:text-emerald-600">Contact</a>
+    </div>
+
+    <div class="space-y-3 font-inter">
+      <h3 class="font-semibold text-base mb-1">Connect</h3>
+      <a href="https://wa.me/971567570905" class="text-emerald-600 block">WhatsApp Chat</a>
+      <a href="https://instagram.com/theglobalpartner" class="text-emerald-600 block">Instagram</a>
     </div>
   </div>
-
-  <div class="text-center py-4 text-sm text-gray-500 border-t border-gray-200">
+  
+  <div class="text-center text-xs text-gray-500 mt-8 font-inter">
     &copy; 2025 MsquareCo. All rights reserved.
   </div>
 </footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/971567570905" class="fixed bottom-6 right-6 bg-emerald-600 text-white rounded-full p-3 shadow-lg z-50" target="_blank" aria-label="Chat on WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20.52 3.48A11.999 11.999 0 0012 0C5.373 0 0 5.373 0 12c0 2.098.542 4.06 1.49 5.77L0 24l6.322-1.66A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12 0-3.18-1.23-6.18-3.48-8.52zM12 22a9.938 9.938 0 01-5.055-1.39l-.36-.213-3.745.983.998-3.646-.235-.373A9.947 9.947 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10zm5.134-7.444c-.276-.138-1.634-.805-1.887-.896-.253-.092-.437-.138-.622.138-.184.276-.713.896-.873 1.08-.161.184-.322.207-.598.069-.276-.138-1.163-.428-2.214-1.364-.818-.728-1.37-1.625-1.532-1.9-.161-.276-.017-.425.121-.563.125-.125.276-.322.414-.483.138-.161.184-.276.276-.46.092-.184.046-.345-.023-.483-.069-.138-.622-1.5-.853-2.053-.224-.538-.452-.465-.622-.474-.161-.007-.345-.009-.529-.009s-.483.069-.736.345c-.253.276-.977.956-.977 2.33s1.001 2.707 1.141 2.893c.138.184 1.968 3.008 4.772 4.214.668.288 1.188.46 1.594.589.669.213 1.28.183 1.76.111.537-.08 1.634-.667 1.866-1.312.23-.645.23-1.197.161-1.312-.068-.115-.253-.184-.529-.322z"/>
+  </svg>
+</a>
