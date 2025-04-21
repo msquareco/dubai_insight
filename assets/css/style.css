@@ -20,6 +20,7 @@ h1, h2, h3 {
     color: #2e2e2e;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 h1 {
@@ -42,15 +43,20 @@ h3 {
 .subheading {
     font-size: 1.2rem;
     margin: 0.5rem 0 1rem;
+    text-align: center;
 }
 
 p {
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* Lists */
 ul {
     padding-left: 20px;
+    text-align: left;
+    display: inline-block; /* Keep lists centered within parent */
+    margin: 0 auto;
 }
 
 ul li {
@@ -63,9 +69,8 @@ ul li {
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 0;
-    text-align: center; /* <-- Add this */
+    text-align: center;
 }
-
 
 /* Header */
 header {
@@ -83,4 +88,35 @@ section.content {
 /* Links */
 a {
     color: #50C878;
-    text-decoration
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #2e2e2e;
+}
+
+/* Contact Links */
+.contact-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact-links li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer .space-x-4 a {
+    font-size: 0.9rem; /* Smaller font size for social */
+    margin: 0 10px;
+}
