@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <!-- Header -->
-  <div id="header-container"></div>
-  
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MsquareCo | Discover Smarter Investment in Dubai</title>
- 
   <script defer src="./assets/js/main.js"></script>
   <link rel="icon" type="image/png" href="/assets/images/logo.png">
-  <!-- Fonts and Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-  
+<body class="bg-[#f9f9f6] text-[#2e2e2e] font-inter">
+
+  <!-- Header -->
+  <div id="header-container"></div>
+
   <!-- Hero Section -->
   <section class="content bg-[#f9f9f6] text-center">
     <div class="container">
@@ -71,6 +69,77 @@
         <a href="https://wa.me/971567570905" class="btn">Talk on WhatsApp</a>
         <a href="/insights/" class="btn bg-[#f3c77b] text-[#2e2e2e] hover:bg-[#e2b95f]">Explore Investment Insights</a>
       </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="content bg-[#f9f9f6] text-[#2e2e2e]">
+    <div class="container">
+      <h1 class="text-4xl md:text-5xl font-playfair font-semibold text-center mb-12">Who We Are</h1>
+      <div class="max-w-5xl mx-auto text-lg leading-relaxed space-y-12">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-playfair mb-4">Strategic Consultants for International Real Estate</h2>
+          <p>At MsquareCo, we go beyond the typical transaction. We’re here to guide, educate, and empower you in making informed, long-term property investment decisions — especially in the thriving landscape of Dubai.</p>
+        </div>
+        
+        <div>
+          <h2 class="text-2xl md:text-3xl font-playfair mb-4">Deep Dubai Market Knowledge</h2>
+          <p>We understand what’s trending — and what’s not. With hands-on insight into developer offerings, regulatory frameworks, rental trends, and neighborhood dynamics, we help our clients navigate confidently.</p>
+        </div>
+        
+        <div>
+          <h2 class="text-2xl md:text-3xl font-playfair mb-4">What We Believe</h2>
+          <p>Property is not a product — it’s a plan. Every investor is different, and so should be the strategy. Whether you're seeking yield, residency, or long-term growth, we tailor every conversation around <em>your</em> goal.</p>
+        </div>
+        
+        <div>
+          <h2 class="text-2xl md:text-3xl font-playfair mb-4">Why It Matters</h2>
+          <p>We focus on awareness, not pushy sales. Our clients trust us not just to show listings, but to decode the entire market — from legalities to liquidity — so that decisions are made with both heart and head aligned.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="content bg-[#f9f9f6] text-[#2e2e2e]">
+    <div class="container text-center">
+      <h1 class="text-4xl md:text-5xl font-playfair font-semibold mb-6">Let’s Connect</h1>
+      <p class="text-lg leading-relaxed mb-12">Wherever you are in your investment journey, we’re here to help. Whether it’s a quick query, a deep discussion, or a personalized strategy — we’re just a message away.</p>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+        <a href="https://wa.me/971567570905" class="btn">Talk on WhatsApp</a>
+        <a href="https://instagram.com/theglobalpartner" class="btn bg-[#f3c77b] text-[#2e2e2e] hover:bg-[#e2b95f]">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional Contact Form -->
+  <section class="content bg-white">
+    <div class="container">
+      <h2 class="text-2xl md:text-3xl font-playfair text-center mb-6">Prefer email? Send us a quick note.</h2>
+      <form action="https://formsubmit.co/info@msquareco.com" method="POST" class="space-y-6">
+        <!-- Hidden Fields -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://msquareco.com/about.html">
+        
+        <!-- Name -->
+        <input type="text" name="name" placeholder="Your Name" required
+               class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-600">
+        
+        <!-- Email -->
+        <input type="email" name="email" placeholder="Your Email" required
+               class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-600">
+        
+        <!-- Message -->
+        <textarea name="message" rows="5" placeholder="Your Message" required
+                  class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-600"></textarea>
+        
+        <!-- Submit -->
+        <button type="submit"
+                class="w-full p-4 bg-[#f3c77b] text-[#2e2e2e] rounded-lg hover:bg-[#e2b95f] transition-all focus:outline-none focus:ring-2 focus:ring-emerald-600">
+          Send Message
+        </button>
+      </form>
+      <p class="text-sm text-center mt-4 text-gray-500">We respond within 24 hours.</p>
     </div>
   </section>
 
