@@ -62,8 +62,10 @@ ul li {
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 0;
+    text-align: center; /* <-- Add this */
 }
+
 
 /* Header */
 header {
