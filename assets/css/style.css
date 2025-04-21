@@ -1,43 +1,54 @@
-/* Fonts */
+/* Reset & Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts & Base */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f9f9f6;
     color: #2e2e2e;
     line-height: 1.7;
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
 }
 
+/* Typography */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     color: #2e2e2e;
-    margin-top: 40px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: 2rem; /* Reduced size for better balance */
-    margin-bottom: 0;
-}
-
-.subheading {
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 1.3rem; /* Adjusted h2 size for better content balance */
+    font-size: 1.3rem;
     font-weight: normal;
     color: #888;
 }
 
 h3 {
     font-size: 1.4rem;
-    margin-top: 40px;
     border-bottom: 2px solid #d4af37;
     display: inline-block;
     padding-bottom: 5px;
 }
 
+.subheading {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Lists */
 ul {
     padding-left: 20px;
 }
@@ -46,13 +57,15 @@ ul li {
     margin-bottom: 10px;
 }
 
+/* Container */
 .container {
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
+/* Header */
 header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
@@ -60,25 +73,12 @@ header {
     text-align: center;
 }
 
+/* Content Sections */
 section.content {
-    padding-bottom: 60px;
+    padding: 40px 0 60px;
 }
 
-/* Social media buttons and links adjustments */
+/* Links */
 a {
     color: #50C878;
-    text-decoration: none;
-    transition: 0.3s ease;
-}
-
-a:hover {
-    color: #2e2e2e;
-}
-
-.contact-links li {
-    margin-bottom: 10px;
-}
-
-/* Social Media Links Style */
-footer .space-x-4 a {
-    font-size: 0.9rem; /* Smaller font size for social*
+    text-decoration
