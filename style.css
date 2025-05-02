@@ -5,12 +5,28 @@ body {
   color: #2e2e2e;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  font-weight: bold;
+  font-weight: 700;
   color: #2e2e2e;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 /* Utility Classes */
@@ -57,18 +73,23 @@ h1, h2, h3 {
 
 /* Buttons */
 .btn {
-  background-color: #f3c77b;
-  padding: 12px 24px;
-  border-radius: 8px;
-  color: #2e2e2e;
-  font-weight: bold;
+  background-color: #2e2e2e;
+  padding: 12px 28px;
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 600;
   text-align: center;
-  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .btn:hover {
-  background-color: #e2b95f;
+  background-color: #1c1c1c;
+  transform: translateY(-1px);
 }
 
 /* Form Inputs */
@@ -77,23 +98,41 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+  color: #2e2e2e;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #aaa;
+  outline: none;
 }
 
 /* Footer */
 #footer {
-  background-color: #003366;
-  color: #fff;
+  background-color: #1f1f1f;
+  color: #ffffff;
   text-align: center;
-  padding: 30px 20px 10px;
+  padding: 40px 20px 20px;
+  font-size: 0.875rem;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
-  color: #f3c77b;
+  color: #2e2e2e;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 a:hover {
-  color: #e2b95f;
+  color: #1c1c1c;
+  border-bottom: 1px solid #ccc;
 }
